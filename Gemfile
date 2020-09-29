@@ -5,6 +5,17 @@ ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.4'
+gem 'bootstrap-sass', '>= 3.4.1'
+gem 'bootstrap', '~> 4.3.1' 
+##gem 'protected_attributes' 
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+gem 'carrierwave'
+gem 'dragonfly'
+gem 'yaml_db' , :github => 'jetthoughts/yaml_db', :ref => 'fb4b6bd7e12de3cffa93e0a298a1e5253d7e92ba'
+gem 'mini_magick', '>=4.9.4'
+gem 'rack-test' # => , '0.6.3'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
 # Use Puma as the app server
